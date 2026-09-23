@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "30 3 * *"
 
 jobs:
   demo:
@@ -11,3 +13,8 @@ jobs:
     steps:
       - name: harshkumar
         run: echo "hello from harshit"
+
+      - name: second step
+        run: echo "ye bhi automatically chalega"
+
+

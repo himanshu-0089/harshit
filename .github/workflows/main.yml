@@ -2,7 +2,7 @@ name: harshu
 
 on: 
   push: 
-   branches: [ main ]
+   branches: [main]
 
 jobs:
   demo:
